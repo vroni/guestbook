@@ -7,23 +7,18 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-
-    <!-- HTML head -->
+  
     <head>
         <title>Gästebuch-Eintrag erstellen</title>
         <!-- Embed cascading stylesheet file --> 
         <link rel="stylesheet" type="text/css" href="css/guestbook.css"/>
         <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <s:head />
     </head>
 
-    <!-- HTML body -->
     <body>
-    
-        <!-- Guestbook header is just a first-level headline -->
         <h1 class="guestbook_header">my guestbook</h1>
-        
-              <!-- Guestbook body with contains the actual page content -->
-        <div class="guestbook_body">
+          <div class="guestbook_body">
 
             <!-- Subheader and explanation text for this page -->
             <h2>Gästebuch-Eintrag erstellen</h2>
