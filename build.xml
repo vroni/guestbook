@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 
-
 <!-- ====================================================================== 
      Date:     July 2011
      
@@ -8,9 +7,6 @@
      
      Author:   Franz Heinfling
      ====================================================================== -->
-
-
-	
 <project name="guestbook" default="archive" basedir=".">
 	
     <description>
