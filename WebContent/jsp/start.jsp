@@ -7,7 +7,6 @@
     pageEncoding="UTF-8"%>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 
 	<!-- HTML head -->
@@ -32,6 +31,7 @@
                 Folgende Funktionen stehen ihnen zur Verfügung:
             </p>
             <ul class="functionList">
+              
                 <li><a href="<s:url action='searchInput'/>">Suche im Gästebuch</a></li>
                 <li><a href="<s:url action='displayall'/>">Alle Einträge ansehen</a></li>
                 <li><a href="<s:url action='createInput'/>">Neuen Eintrag erstellen</a></li>
